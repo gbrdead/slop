@@ -38,7 +38,7 @@ Then I realized that an LLM is not your grandmother's computer. It is not a comp
 
 At the end of 2024 I got kicked out (not LLM-related) of my job. Naturally, I started doom-scrolling LinkedIn in order to get an idea of what interviews look like nowadays, what my chances at finding a job at my age are, etc. What I found was a tsunami after tsunami of hype about LLMs. The term "vibe coding" was codified during my quest for a job. Rather sooner than later, all white-collar jobs (with software-producing ones first) will be replaced by AI. The LLMs are learning at an exponential rate and we are months away from Artificial General Intelligence (AGI), so [Jonh Connor](https://en.wikipedia.org/wiki/Skynet_(Terminator)) better hide in the nuclear shelter ASAP. As a result, the managers in the technological companies are holding their breaths and refraining from new hires. OK, the last one was useful in my situation.
 
-There were (and stil are) countless of postings boasting 10x software development enabled by vibe or merely LLM-assisted coding. Complete original applications were built in hours by a single seasoned professional who, of course, knew what he was doing (supposedly, reviewing and fixing the LLM-produced code). And funnily enough, no example code to back these claims. All successful code, produced by LLMs, turned out to be highly secretive proprietary software. Coincidence?
+There were (and still are) countless of postings boasting 10x software development enabled by vibe or merely LLM-assisted coding. Complete original applications were built in hours by a single seasoned professional who, of course, knew what he was doing (supposedly, reviewing and fixing the LLM-produced code). And funnily enough, no example code to back these claims. All successful code, produced by LLMs, turned out to be highly secretive proprietary software. Coincidence?
 
 The sceptics (including yours trully) were scared to say anything, at least at first. What if the hypers are right? Perhaps the steam-powered looms looked ridiculous in the eyes of the original luddites but then they took their jobs anyway. What if we are the present-day [buggy whip](https://en.wikipedia.org/wiki/Whip#Buggy_whip_and_coachwhip) proponents?
 
@@ -52,13 +52,12 @@ I found a job and even installed Copilot in my IDE. I let it write a whole metho
 
 ## Still Sipping from the Kool-Aid
 
-Right now, the prevailing opinion among the sceptics is:
+At the moment (late 2025), the prevailing opinion among the sceptics is:
 - AGI is nowhere near.
 - LLMs will not replace many jobs.
 - But LLMs have a positive value and being able to use them will be a crucial ability of the white-collar worker of the near future.
 
-I do not share the last part. IMHO, LLM use is not acceptable in any field where a simple preventable mistake may cause harm. The reason is simple: AI cannot bear responsibility.  
-Here are some examples:
+I do not share the last part. IMHO, LLM use is not acceptable in any field where a simple preventable mistake may cause harm. The reason is simple: AI cannot bear responsibility. Here are some examples:
 - Law. Hallucinations of precedents can easily lead to a wrongful conviction in case law. I still cannot believe how lawyers caught using LLMs are not being disbarred on the spot.
 - Practicing medicine. Dr. House's approach of confirming or rejecting the diagnosis based on an autopsy is not applicable in the real world.
 - Development of any software that has anything to do with security (nowadays, this includes pretty much everything).
@@ -87,26 +86,24 @@ Let's assume for a moment that the hallucination problem gets solved. Then remem
 
 A lot of the software that needs to be written is not particularly challenging. It does not need neat tricks. Mediocrity should be fine for it, right?
 
-But productive code is of above mediocre quality. While this may sound as a paradox, it is easy to explain. Mediocre code in the context of LLMs is the mean of all the code examples used to train them. This includes:
+But productive code is of above mediocre quality. While this may sound as a paradox, it is easily explainable. Mediocre code in the context of LLMs is the mean of all the code examples used to train them. This includes:
 - Textbooks, tutorials and their likes. Unless the studied topic is security then the latter is simply ignored. Productive code, however, needs to be secure.
-- StackOverflow, Reddit, Wikipedia and their likes. The same concern as above.
+- StackOverflow, Reddit, Wikipedia and similar user-generated sources. The same concern as above.
 - All possible code found on the Internet, most of which has never been used productively. You know, those repositories with a single commit from 8 years ago.
 - The training data certainly includes a lot of code of productive quality. But the above bring the mean down.
 
-Additionally, the merged code in a project is of higher quality than the mean level of the programmers working on it. A piece of code written by an inexperienced programmer will get reviewed by a more experienced one and it will get its level up. A review by an inexperienced programmer does not push the quality down.
+Additionally, the merged code in a project is of higher quality than the mean level of the programmers working on it. A piece of code written by an inexperienced programmer will get reviewed by a more experienced one and this will get its level up. A review by an inexperienced programmer does not push the quality down.
 
 Of course, vibe coding is totally fine for prototypes, provided no attempts for their direct productization are made afterwards.
 
 
-### A Simpler Reasoning
-
-If you are not convinced by the mediocrity reasoning, here is another unrelated argument why the quality of software will go down if we start employing LLMs.
+### A Simpler Argument
 
 "A computer will do what you tell it to do, but that may be much different from what you had in mind." - [Joseph Weizenbaum](https://en.wikipedia.org/wiki/Joseph_Weizenbaum) (the creator of the aforementioned ELIZA)
 
 We have spent the last 70 years defining formal languages that help up us tell a computer what we want it to do while bringing down the likelihood of misunderstandings. And we have done a pretty good job. We have various programming languages of different levels of abstraction that give us good confidence that a computer will do what we really want.
 
-And now come the Large *Language* Models. The language here is not a formal one. It is a context-dependent language, ridden with ambiguities, intended to be complemented with things like intonation and facial expression. It is naive to expect that inserting our beloved English (or whatever tongue) in the tool stack will not lead to a higher incidence of bugs.
+And now come the Large *Language* Models. The language here is not a formal one. It is a context-dependent language, riddled with ambiguities, intended to be complemented with things like intonation and facial expression. It is naive to expect that inserting our beloved English (or whatever tongue) in the tool stack will not lead to a higher incidence of bugs.
 
 
 ## What Could Possibly Go Wrong?
@@ -118,11 +115,11 @@ Are we willing to lower the quality of software for the sake of making a few bil
 
 Enough with software. What's with the arts?
 
-In late 2024 I was watching season 2 of [Silo](https://www.imdb.com/title/tt14688458/). Just like with other similar mystery-based shows, tiny details matter. So instead of watching each episode multiple times, I resorted to searching YouTube for videos that highlight the details I might have missed. Such videos should have existed, right? And they probably did but I could not find them. All I could find were AI-generated retellings of the episodes. Totally bland. Told with an emotionless voice. Riddled with inaccuracies.
+In late 2024 I was watching season 2 of [Silo](https://www.imdb.com/title/tt14688458/). Just like with other mystery-based shows, tiny details matter. So instead of watching each episode multiple times, I resorted to searching YouTube for videos that highlight the details I might have missed. Such videos should have existed, right? And they probably did but I could not find them. All I could find were AI-generated retellings of the episodes. Totally bland. Told with an emotionless voice. Full of inaccuracies.
 
 AI slop can drown us and, unfortunately, it will. The war for clicks and views basically guarantees that. Many people are doing their art only for the recognition they get from their fans. When they become unfindable in the ocean of AI-generated mediocrity they will simply give up.
 
-AI slop is great for disinfomation campaigns. The latter has the potential to end liberal democracy.
+AI slop is great for disinfomation campaigns. The latter have the potential to end liberal democracy.
 
 BTW, AI slop and hallucinated coding bugs are the same side of the same coin.
 
@@ -131,7 +128,7 @@ But AI slop is what ultimately may lead to the demise of LLMs. Remember 1. above
 
 ## Copyright
 
-Training an LLM is feeding it as much data as possible, most of which is copyrighted under a [not-so-permissive](https://en.wikipedia.org/wiki/Free-software_license#Comparison) license. The LLM owners claim that this is the same as a human reading/listening/watching the material. But we know it isn't. They know it isn't. Everybody knows it isn't. The training material stays in some form in the neural network even if nobody knows how to decode it (because of 2. above). 
+Training an LLM is feeding it as much data as possible, most of which is copyrighted under [not-so-permissive](https://en.wikipedia.org/wiki/Free-software_license#Comparison) licenses. The LLM owners claim that this is the same as a human reading/listening/watching the material. But we know it isn't. They know it isn't. Everybody knows it isn't. The training material stays in some form in the neural network even if nobody knows how to decode it (because of 2. above).
 
 But how do the LLM owners avoid the wrath of the copyright owners? Why aren't they swamped with lawsuits? I genuinely don't know. The only hypothesis I have is that those that have the greatest copyright potfolios and can hit really hard are the same who have invested in LLMs the most expecting them to become AGI.
 
@@ -140,7 +137,7 @@ But how do the LLM owners avoid the wrath of the copyright owners? Why aren't th
 
 Pretty much nobody denies the existence of the AI bubble. But some claim that this time it is different (yeah, it always is). The bubble will not pop because the extraordinary expectations will, in fact, materialize! The AI companies are burning through investors' money like ~~there is no tomorrow~~ LLMs will soon become AGI and will let said investors rule the world.
 
-If I am certain in one of the claims made in this document, this is the one: **LLMs will not become AGI**. AGI is certainly possible - after all, our brains are made of ordinary atoms. But the limits of the LLMs have been reached. They can only go down the slippery slop(e).
+If I am certain in one of the claims made in this document, this is the one: **LLMs will not become AGI**. AGI is certainly possible - after all, our brains are made of ordinary atoms. But the limits of the LLMs have been reached. They can only go down the slippery slop(e) from here on.
 
 Many people cannot find jobs now not because no employer needs them but because said employers naively believe that they will not need them. Some employers hold back projects, others double down on LLMs and introduce problems that will be harder and more expensive to fix later.
 
@@ -153,7 +150,7 @@ LLMs will not disappear after the bubble bursts, of course, just like the Dutch 
 
 But why should you trust my fringe opinion? Well, probably you shouldn't but in case you decide differently: Those are my credentials, and if you don't like them... well, I don't have others.
 
-I have an MSc in Computer Science. It is from 2001 and is not AI-related. I have been programming ever since I discovered computers in 1991. Programming is both my hobby and profession. Rarely a day passes with me not reading or writing some code. I am not your average CEO of a multi-billion technological company. I am not even a low-level manager. I am still in the trenches and I refuse to retreat from them. I have seen a lot of dangerous bugs, many of them authored by very experienced programmers (including me). I have been interested in the security aspects of software since my day 1 in front of a computer. I have some experience as a penetration tester, even though I have never worked formally as one.
+I have an MSc in Computer Science. It is from 2001 and is not AI-related. I have been programming ever since I discovered computers in 1991. Programming is both my hobby and my profession. Rarely a day passes with me not reading or writing some code. I am not your average CEO of a multi-billion technological company. I am not even a low-level manager. I am still in the trenches and I refuse to retreat from them. I have seen a lot of dangerous bugs, many of them authored by very experienced programmers (including me). I have been interested in the security aspects of software since my day 1 in front of a computer. I have some experience as a penetration tester, even though I have never worked formally as one.
 
 
 *Vladimir Panov, 2025.10+*
