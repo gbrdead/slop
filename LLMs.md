@@ -31,7 +31,7 @@ My next encounter with an LLM, this time with the much hyped ChatGPT, was in Sep
 
 On another occasion, I asked ChatGPT to count the number of characters in a string. Luckily, the number it gave me was ridiculously low and wasn't even even (as I was expecting). WTF, a computer that cannot count?!
 
-Then I realized that an LLM is not your grandmother's computer. It is not a computer at all. It is a chat-bot, a somewhat realistic simulation of a conversation. Precision is not among its goals. Only realism is. Is this number a realistic answer? Of course - it is a number. And if the English language had a bit different semantics, it might have even been the exact one. 
+Then I realized that an LLM is not your grandmother's computer. It is not a computer at all. It is a chat-bot, a somewhat realistic simulation of a conversation. Precision is not among its goals. Only plausibility is. Is this number a plausible answer? Of course - it is a number. And if the English language had a bit different semantics, it might have even been the exact one.
 
 
 ## Doom-Scrolling
