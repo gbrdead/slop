@@ -1,4 +1,6 @@
 # [I.e. AI, AI, Oh](https://www.youtube.com/watch?v=eudOwe3Rz-0)
+#### (an essay on Large Language Models (a.k.a. Generative AI))
+---
 
 ## The Turing Test
 
@@ -123,7 +125,7 @@ AI slop is great for disinfomation campaigns. The latter have the potential to e
 
 BTW, AI slop and hallucinated coding bugs are the same side of the same coin.
 
-But AI slop is what ultimately may lead to the demise of LLMs. Remember 1. above? If you want your LLM to become "better" (however this is defined) you must train it with more data. But remember 3. above? If you train an LLM with its own vomit it will only become worse - the so-called [model collapse](https://en.wikipedia.org/wiki/Model_collapse). Until recently, this was not a problem. LLMs were trained on everything their creators could lay their hands on. Good or bad, all content on the Internet was human-generated and at least somewhat original. Discerning orignal content from AI slop is hard even for many humans and it is certainly not doable en masse. Training an LLM one article at a time will not produce noticeable effects either. It is very likely that "the best" LLMs ever will turn out to be those from 2025, or maybe even 2024.
+But AI slop is what ultimately may lead to the demise of LLMs. Remember 1. above? If you want your LLM to become "better" (however this is defined) you must train it with more data. But remember 3. above? If you train an LLM with its own vomit it will only become worse - the so-called [model collapse](https://en.wikipedia.org/wiki/Model_collapse). Until recently, this was not a problem. LLMs were trained on everything their creators could lay their hands on. Good or bad, all content on the Internet was human-generated and at least somewhat original. Discerning original content from AI slop is hard even for many humans and it is certainly not doable en masse. Training an LLM one article at a time will not produce noticeable effects either. It is very likely that "the best" LLMs ever will turn out to be those from 2025, or maybe even 2024.
 
 
 ## Copyright
