@@ -112,6 +112,10 @@ And now come the Large *Language* Models. The language here is not a formal one.
 
 Are we willing to lower the quality of software for the sake of making a few billionaires richer? I'm not. Humanity, represented by the said trillionaire-wannabes, seems ready to try. The attempt will fail disastrously for one simple reason: the [black hats](https://en.wikipedia.org/wiki/Black_hat_(computer_security)). They will not willingly dumb themselves down. The incidence of exploitable vulnerabilities will go up.
 
+Come on, it can't be that bad! There has never been such a widely praised and deployed technology which problems have not been somehow fixed with time.
+
+Of course there was. At its inception, [ActiveX](https://en.wikipedia.org/wiki/ActiveX) was a security nightmare waiting to happen. Its security was based on such bullshit like "Developers had to ... sign a contract, promising not to develop malware". It took the industry more than a decade to admit the problems while making the World Wide Web essentially Windows-only. And then another decade to cleanse itself. I personally did not touch ActiveX even with a 3.05-meter pole and somehow survived.
+
 
 ## AI Slop
 
