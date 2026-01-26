@@ -1,4 +1,4 @@
-# [I.e. AI, AI, Oh](https://www.youtube.com/watch?v=eudOwe3Rz-0)
+# The Emperor's New Clothes
 #### (an essay on Large Language Models (a.k.a. Generative AI))
 ---
 
