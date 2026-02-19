@@ -105,7 +105,7 @@ Of course, vibe coding is totally fine for throw-away prototypes, provided no at
 
 "A computer will do what you tell it to do, but that may be much different from what you had in mind." - [Joseph Weizenbaum](https://en.wikipedia.org/wiki/Joseph_Weizenbaum) (the creator of the aforementioned ELIZA)
 
-We have spent the last 70 years defining formal languages that help up us tell a computer what we want it to do while bringing down the likelihood of misunderstandings. And we have done a pretty good job. We have various programming languages of different levels of abstraction that give us good confidence that a computer will do what we really want.
+We have spent the last 70 years defining formal languages that help us tell a computer what we want it to do while bringing down the likelihood of misunderstandings. And we have done a pretty good job. We have various programming languages of different levels of abstraction that give us good confidence that a computer will do what we really want.
 
 And now come the Large *Language* Models. The language here is not a formal one. It is a context-dependent language, riddled with ambiguities, intended to be complemented with things like intonation and facial expression. It is naive to expect that inserting our beloved English (or whatever tongue) in the tool stack will not lead to a higher incidence of bugs.
 
@@ -133,12 +133,12 @@ BTW, AI slop and hallucinated coding bugs are the same side of the same coin.
 
 But AI slop is what ultimately may lead to the demise of LLMs. Remember 1. above? If you want your LLM to become "better" (however this is defined) you must train it with more data. But remember 3. above? If you train an LLM with its own vomit it will only become worse - the so-called [model collapse](https://en.wikipedia.org/wiki/Model_collapse). Until recently, this was not a problem. LLMs were trained on everything their creators could lay their hands on. Good or bad, all content on the Internet was human-generated and at least somewhat original.
 
-Discerning original content from AI slop is certainly not doable en masse - it is hard even for many humans, let alone the AI itself. Training an LLM one article at a time will not prevent the bubble from bursting, even if it is a technically viable idea. So the LLM developers will have no choice but to feed their LLMs with data with ever growing AI slop content. It is very likely that "the best" LLMs ever will turn out to be those from 2025.
+Discerning original content from AI slop is certainly not doable en masse - it is hard even for many humans, let alone the AI itself. Training an LLM one expert-vetoed article at a time will not prevent the bubble from bursting, even if it is a technically viable idea. So the LLM developers will have no choice but to feed their LLMs with data with ever greater AI slop content. It is very likely that "the best" LLMs ever will turn out to be those from 2025.
 
 
 ## Copyright
 
-Training an LLM is feeding it as much data as possible, most of which is copyrighted under [not-so-permissive](https://en.wikipedia.org/wiki/Free-software_license#Comparison) licenses. The LLM owners claim that this is the same as a human reading/listening/watching the material. But we know it isn't. They know it isn't. Everybody knows it isn't. The training material stays in some form in the neural network even if nobody knows how to decode it (because of 2. above).
+Training an LLM is feeding it as much data as possible, most of which is copyrighted under [not-so-permissive](https://en.wikipedia.org/wiki/Free-software_license#Comparison) licenses. The LLM owners claim that this is the same as a human reading/listening/watching the material. But we know it isn't. They know it isn't. Everybody knows it isn't. The training material stays in some form in the neural network even if nobody knows how to decode it (because of 2. above) and then gets _copied_ to multiple computers. A human brain cannot be copied.
 
 But how do the LLM owners avoid the wrath of the copyright owners? Why aren't they swamped with lawsuits? I genuinely don't know. The only hypothesis I have is that those that have the greatest copyright potfolios and can hit really hard are the same who have invested in LLMs the most expecting them to become AGI.
 
@@ -149,7 +149,7 @@ Pretty much nobody denies the existence of the AI bubble. But some claim that th
 
 If I am certain in one of the claims made in this document, this is the one: **LLMs will not become AGI**. AGI is certainly possible - after all, our brains are made of ordinary atoms. But the limits of the LLMs have been reached. They can only go down the slippery slop(e) from here on.
 
-Many people cannot find jobs now not because no employer needs them but because said employers naively believe that they will not need them. Some employers hold back projects, others double down on LLMs and introduce problems that will be harder and more expensive to fix later.
+Many people cannot find jobs now not because employers don't need them but because said employers naively believe that they will not need them. Some employers hold back projects, others double down on LLMs and introduce problems that will be harder and more expensive to fix later.
 
 The sooner this bubble pops, the better (or less bad) for everybody, including the aforementioned investors. People will become employable again, the projects will finally get moving, the wages will go up, remote work will no longer be denied for those professions that can utilize it.
 
@@ -160,7 +160,7 @@ LLMs will not disappear after the bubble bursts, of course, just like the Dutch 
 
 But why should you trust my fringe opinion? Well, probably you shouldn't but in case you decide differently: Those are my credentials, and if you don't like them... well, I don't have others.
 
-I have an MSc in Computer Science. It is from 2001 and is not AI-related. I have been programming ever since I discovered computers in 1991. Programming is both my hobby and my profession. Rarely a day passes with me not reading or writing some code. I am not your average CEO of a multi-billion technological company. I am not even a low-level manager. I am still in the trenches and I refuse to retreat from them. I have seen a lot of dangerous bugs, many of them authored by very experienced programmers (including me). I have been interested in the security aspects of software since my day 1 in front of a computer. I have some experience as a penetration tester, even though I have never worked formally as one.
+I have an MSc in Computer Science. It is from 2001 and is not AI-related. I have been programming ever since I discovered computers in 1991. Programming is both my greatest hobby and my profession. Rarely a day passes with me not reading or writing some code. I am not your average CEO of a multi-billion technological company. I am not even a low-level manager. I am still on the front line and I refuse to retreat. I have seen a lot of dangerous bugs, many of them authored by very experienced programmers (including me). I have been interested in the security aspects of software since my day 1 in front of a computer. I have some experience as a penetration tester, even though I have never worked formally as one.
 
 
 *Vladimir Panov, 2025.10+ - 2026.02*
