@@ -49,12 +49,12 @@ The sceptics (including yours trully) were scared to say anything, at least at f
 
 Hype not subsiding, the sceptics started to ask some inconvinient questions. Some even tried vibe coding and reported that the resulting code is close to unmaintanable (even more funnily - again without example code). ChatGPT 5 came out and no one was impressed - at best it was reported as an incremental improvement over ChatGPT 4. Some AI researchers shyly suggested that maybe [the hallucinations will never be eliminated](https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html).
 
-I found a job and even installed Copilot in my IDE. I let it write a whole method once, only to refactor it inside-out. Occasionally, it does some copy-pasting for me. Most of the time its suggestions have nothing to do with what I have in mind. I even tried some vibe coding but not on a real project. I keep using ChatGPT as a glorified search engine and it keeps misleading me (and then apologizing). In general, I give AI-assisted coding a rating of "meh".
+I found a job and even installed Copilot in my IDE. I let it write a whole method once, only to refactor it inside-out. Occasionally, it does some copy-pasting for me. Most of the time its suggestions have nothing to do with what I have in mind. I even tried some vibe coding but not on a real project. I keep using ChatGPT as a glorified search engine and it keeps misleading me (and then apologizing) every now and then. In general, I give AI-assisted coding a rating of "meh".
 
 
 ## Still Sipping from the Kool-Aid
 
-At the moment (late 2025), the prevailing opinion among the sceptics is:
+In late 2025, the almost universally-held opinion among the sceptics was:
 - AGI is nowhere near.
 - LLMs will not replace many jobs.
 - But LLMs have a positive value and being able to use them will be a crucial ability of the white-collar worker of the near future.
@@ -64,13 +64,15 @@ I do not share the last part. IMHO, LLM use is not acceptable in any field where
 - Practicing medicine. Dr. House's approach of confirming or rejecting the diagnosis based on an autopsy is not applicable in the real world.
 - Development of any software that has anything to do with security (nowadays, this includes pretty much everything).
 
+In early 2026, I finally started noticing full-blown AI sceptics like me. Phew!
+
 ## Applicability of LLMs in programming
 
 ### Hallucinations in AI-assisted Program Code
 
 Hallucinations for program code are bugs (otherwise they would not be considered as such). Any bug has the potential to become a security vulnerability. Even dead code may get activated under obscure conditions and increase the attack surface. Code of low readability (not exactly a hallucination itself but a common defect of LLM-produced code), even if correct today, makes future bugs more likely.
 
-LLM proponents and even most of the sceptics suggest the following counter-measure to hallucinations and low readability: code reviews by seasoned programmers. This may work only in the short term (we're still here). Here is why:
+LLM proponents and even most of the sceptics suggest the following counter-measure to hallucinations and low readability: code reviews by seasoned programmers. This may work only in the short term. Here is why:
 
 Programmers become good at reviewing someone else's code by performing the following activities:
 - Writing code.
@@ -96,7 +98,7 @@ But productive code is of above mediocre quality. While this may sound as a para
 
 Additionally, the merged code in a project is of higher quality than the mean level of the programmers working on it. A piece of code written by an inexperienced programmer will get reviewed by a more experienced one and this will get its level up. A review by an inexperienced programmer does not push the quality down.
 
-Of course, vibe coding is totally fine for prototypes, provided no attempts for their direct productization are made afterwards.
+Of course, vibe coding is totally fine for throw-away prototypes, provided no attempts for their direct productization are made afterwards.
 
 
 ### A Simpler Argument
@@ -110,7 +112,7 @@ And now come the Large *Language* Models. The language here is not a formal one.
 
 ## What Could Possibly Go Wrong?
 
-Are we willing to lower the quality of software for the sake of making a few billionaires richer? I'm not. Humanity, represented by the said trillionaire-wannabes, seems ready to try. The attempt will fail disastrously for one simple reason: the [black hats](https://en.wikipedia.org/wiki/Black_hat_(computer_security)). They will not willingly dumb themselves down. The incidence of exploitable vulnerabilities will go up.
+Are we willing to lower the quality of software for the sake of making a few billionaires richer? I'm not. Humanity, represented by the said trillionaire-wannabes, seems ready to try. The attempt will fail disastrously for one simple reason: the [black hats](https://en.wikipedia.org/wiki/Black_hat_(computer_security)). They will not willingly dumb themselves down. The incidence of exploitable and exploited vulnerabilities will go up.
 
 Come on, it can't be that bad! There has never been such a widely praised and deployed technology which problems have not been somehow fixed with time.
 
@@ -129,7 +131,9 @@ AI slop is great for disinfomation campaigns. The latter have the potential to e
 
 BTW, AI slop and hallucinated coding bugs are the same side of the same coin.
 
-But AI slop is what ultimately may lead to the demise of LLMs. Remember 1. above? If you want your LLM to become "better" (however this is defined) you must train it with more data. But remember 3. above? If you train an LLM with its own vomit it will only become worse - the so-called [model collapse](https://en.wikipedia.org/wiki/Model_collapse). Until recently, this was not a problem. LLMs were trained on everything their creators could lay their hands on. Good or bad, all content on the Internet was human-generated and at least somewhat original. Discerning original content from AI slop is hard even for many humans and it is certainly not doable en masse. Training an LLM one article at a time will not produce noticeable effects either. It is very likely that "the best" LLMs ever will turn out to be those from 2025, or maybe even 2024.
+But AI slop is what ultimately may lead to the demise of LLMs. Remember 1. above? If you want your LLM to become "better" (however this is defined) you must train it with more data. But remember 3. above? If you train an LLM with its own vomit it will only become worse - the so-called [model collapse](https://en.wikipedia.org/wiki/Model_collapse). Until recently, this was not a problem. LLMs were trained on everything their creators could lay their hands on. Good or bad, all content on the Internet was human-generated and at least somewhat original.
+
+Discerning original content from AI slop is certainly not doable en masse - it is hard even for many humans, let alone the AI itself. Training an LLM one article at a time will not prevent the bubble from bursting, even if it is a technically viable idea. So the LLM developers will have no choice but to feed their LLMs with data with ever growing AI slop content. It is very likely that "the best" LLMs ever will turn out to be those from 2025.
 
 
 ## Copyright
@@ -159,4 +163,4 @@ But why should you trust my fringe opinion? Well, probably you shouldn't but in 
 I have an MSc in Computer Science. It is from 2001 and is not AI-related. I have been programming ever since I discovered computers in 1991. Programming is both my hobby and my profession. Rarely a day passes with me not reading or writing some code. I am not your average CEO of a multi-billion technological company. I am not even a low-level manager. I am still in the trenches and I refuse to retreat from them. I have seen a lot of dangerous bugs, many of them authored by very experienced programmers (including me). I have been interested in the security aspects of software since my day 1 in front of a computer. I have some experience as a penetration tester, even though I have never worked formally as one.
 
 
-*Vladimir Panov, 2025.10+*
+*Vladimir Panov, 2025.10+ - 2026.02*
