@@ -16,7 +16,7 @@ Perhaps I was young and foolish but at that time I realized bots don't need much
 One year later, I enrolled in a course named "Artificial Intelligence" at my university. The exam was easy, compared to subjects like Differential Equations, Statistics and even the Theory of Computation. Here is what I learned about neural networks:
 
 1. A neural network must be trained with a lot of data in order to be able to do something useful.
-2. An useful neural network is so huge that it is not debuggable. No one can tell why it arrives at a specific conclusion. Magic.
+2. A useful neural network is so huge that it is not debuggable. No one can tell why it arrives at a specific conclusion. Magic.
 3. A neural network leans towards the mean of its training data. The more you train it, the more mediocre it becomes.
 
 As of 2025, we have solved the problem posed by 1., even if at a huge price (both in money and to our planet's climate). 2. has become an even harder problem. 3. can be reworded as: A neural network cannot devise anything exceptional - it just regurgitates its training data.
@@ -24,7 +24,7 @@ As of 2025, we have solved the problem posed by 1., even if at a huge price (bot
 
 ## AI Overviews in Google Search
 
-Barring some demos of chat-bots by colleagues of mine on how they will save us from processing customer bug-reports (yeah, right), my first encounter of LLMs were the AI overviews of Google. At first, I thought that the thingy above the search results was a quote from some more distinguished source, like the official documentation or at least Wikipedia. But in most cases, the advices from the overview were wrong. For example, once I was looking for a Linux kernel parameter for setting this and that. The AI overview, without any uncertainty, claimed that the name of the parameter is this.and.that but in reality it was something similar, yet different (e.g. that.and.this). I enthusiastically set the parameter in /etc/sysctl.d, rebooted and... nope, still no fun. The result was a waste of time pretty much every time I paid attention to the overview. I started to ignore the fake stuff and eventually I learned what it is.
+Barring some demos of chatbots by colleagues of mine on how they will save us from processing customer bug-reports (yeah, right), my first encounter with LLMs were the AI overviews of Google. At first, I thought that the thingy above the search results was a quote from some more distinguished source, like the official documentation or at least Wikipedia. But in most cases, the advices from the overview were wrong. For example, once I was looking for a Linux kernel parameter for setting this and that. The AI overview, without any uncertainty, claimed that the name of the parameter is this.and.that but in reality it was something similar, yet different (e.g. that.and.this). I enthusiastically set the parameter in /etc/sysctl.d, rebooted and... nope, still no fun. The result was a waste of time pretty much every time I paid attention to the overview. I started to ignore the fake stuff and eventually I learned what it is.
 
 
 ## ChatGPT Itself
@@ -33,7 +33,7 @@ My next encounter with an LLM, this time with the much hyped ChatGPT, was in Sep
 
 On another occasion, I asked ChatGPT to count the number of characters in a string. Luckily, the number it gave me was ridiculously low and wasn't even even (as I was expecting). WTF, a computer that cannot count?!
 
-Then I realized that an LLM is not your grandmother's computer. It is not a computer at all. It is a chat-bot, a somewhat realistic simulation of a conversation. Precision is not among its goals. Only plausibility is. Is this number a plausible answer? Of course - it is a number. And if the English language had a bit different semantics, it might have even been the exact one.
+Then I realized that an LLM is not your grandmother's computer. It is not a computer at all. It is a chatbot, a somewhat realistic simulation of a conversation. Precision is not among its goals. Only plausibility is. Is this number a plausible answer? Of course - it is a number. And if the English language had a bit different semantics, it might have even been the exact one.
 
 
 ## Doom-Scrolling
@@ -47,9 +47,7 @@ The sceptics (including yours trully) were scared to say anything, at least at f
 
 ## [Extraordinary claims require extraordinary evidence](https://en.wikipedia.org/wiki/Extraordinary_claims_require_extraordinary_evidence)
 
-Hype not subsiding, the sceptics started to ask some inconvinient questions. Some even tried vibe coding and reported that the resulting code is close to unmaintanable (even more funnily - again without example code). ChatGPT 5 came out and no one was impressed - at best it was reported as an incremental improvement over ChatGPT 4. Some AI researchers shyly suggested that maybe [the hallucinations will never be eliminated](https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html).
-
-I found a job and even installed Copilot in my IDE. I let it write a whole method once, only to refactor it inside-out. Occasionally, it does some copy-pasting for me. Most of the time its suggestions have nothing to do with what I have in mind. I even tried some vibe coding but not on a real project. I keep using ChatGPT as a glorified search engine and it keeps misleading me (and then apologizing) every now and then. In general, I give AI-assisted coding a rating of "meh".
+Hype not subsiding, the sceptics started to ask some inconvenient questions. Some even tried vibe coding and reported that the resulting code is close to unmaintanable (even more funnily - again without example code). ChatGPT 5 came out and no one was impressed - at best it was reported as an incremental improvement over ChatGPT 4. Some AI researchers shyly suggested that maybe [the hallucinations will never be eliminated](https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html).
 
 
 ## Still Sipping from the Kool-Aid
@@ -67,7 +65,17 @@ I do not share the last part. IMHO, LLM use is not acceptable in any field where
 In early 2026, I finally started noticing full-blown AI sceptics like me. Phew!
 
 
-## Applicability of LLMs in programming
+## LLM Encounters of All Kinds
+
+In the summer of 2025 I found a job and at some point I even installed Copilot. Fortunately, my employer has been wise enough not to push us towards [tokenmaxxing](https://en.wikipedia.org/wiki/Token_maxxing), so I took it slow and easy.
+
+My usage of LLMs falls into one of the following types:
+- Completion in the IDE. Occasionally, Copilot does some copy-pasting for me. I accept a full line every now and then. Block suggestions I get heavily edited. The comment suggestions are the most pathetic. They are either totally unnecessary or blatantly misleading.
+- Interactive search engines. I use ChatGPT (the anonymous web version) and Copilot (CLI version, provided by my employer) to search for stuff I used to find with Google before. The chatbots are certainly no worse than the search engines - both can miss something, both can mislead. The chatbots still lie to me with incredible confidence every now and then but I have somehow learned to sniff out these hallucinations with relative ease. Nowadays, they admit their mistakes and apologize when they get caught.
+- Code generation. Eventually, I gathered enough courage to ask Copilot to write a whole feature for me. I deliberately chose the simplest possible one - it needed only some copying and replacing, i.e. all of its parts (including the tests) existed in some form or another in multiple places in the code base. It generated something that looked correct at first glance. I asked it to write some tests. The tests ran and were successful. But at a closer look, it turned out that many of the tests didn't really trigger the claimed functionality. After I fixed them they failed. Then I wasted a couple of hours to find the bug - it was an ommited method that is present in the other similar features in the codebase. I would not have missed it if I had implemented the feature myself but I had a hard time noticing its absence. On top of that, I wasn't sure that there weren't other better hidden deficiencies. And this was the easiest possible self-contained feature. Unless I get officially certified as a luddite, I will not try this again.
+
+
+## Applicability of LLMs in Programming
 
 ### Hallucinations in AI-assisted Program Code
 
@@ -117,16 +125,28 @@ A particular fallacy is being brought up by the AI proponents so frequently that
 But:
 - Can you imagine a compiler that generates non-trivially differing machine code for the same program input every time you run it?
 - How frequently does one feel the need to review the assembly generated by a compiler?
-- The output of a compiler/LLM is just object (intermediate) code. Why don't the AI proponents put their prompts in the source repository?
+- The output of a compiler (and supposedly - an LLM) is object (non-source) code. Why don't the AI proponents put their prompts instead of the generated code in the source repository?
+
+### Vintage Is Back in Fashion
+
+Another popular fallacy is the so-called spec-driven development. I have a special name for it:
+
+[Neo-waterfallism](https://www.linkedin.com/posts/vladimir-panov-788449_waterfall-activity-7415744231547346945-q5Y_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAQtRgBWFGoIKt6xzzGCBlhWbr96TK46l4): The belief that if the human expert creates a perfect specification then the AI agent(s) will create high-quality software out of it.
+
+The primary problem with this belief is that perfect specifications cannot be produced even for the relatively simple systems developed at the dawn of the software industry, let alone for the software of today. The [waterfall model](https://en.wikipedia.org/wiki/Waterfall_model) was used not because it worked well but because its bad consequences weren't that wide and painful. The software from the waterfall era was quite buggy (and insecure in particular) by present-day standards but these bugs didn't have the societal impact they'd have today.
 
 
 ## What Could Possibly Go Wrong?
 
 Are we willing to lower the quality of software for the sake of making a few billionaires richer? I'm not. Humanity, represented by the said trillionaire-wannabes, seems ready to try. The attempt will fail disastrously for one simple reason: the [black hats](https://en.wikipedia.org/wiki/Black_hat_(computer_security)). They will not willingly dumb themselves down. The incidence of exploitable and exploited vulnerabilities will go up.
 
-Come on, it can't be that bad! There has never been such a widely praised and deployed technology which problems have not been somehow fixed with time.
+Come on, it can't be that bad! There has never been such a widely praised and deployed technology with problems that have not been somehow fixed with time.
 
-Of course there was. At its inception, [ActiveX](https://en.wikipedia.org/wiki/ActiveX) was a security nightmare waiting to happen. Its security was based on such bullshit like "Developers had to ... sign a contract, promising not to develop malware". It took the industry more than a decade to admit the problems while making the World Wide Web essentially Windows-only. And then another decade to cleanse itself. I personally did not touch ActiveX even with a 3.05-meter pole and somehow survived.
+Of course there were.
+
+At its inception, [ActiveX](https://en.wikipedia.org/wiki/ActiveX) was a security nightmare waiting to happen. Its security was based on such bullshit like "Developers had to ... sign a contract, promising not to develop malware". It took the industry more than a decade to admit the problems while making the World Wide Web essentially Windows-only. And then another decade to cleanse itself. I personally did not touch ActiveX even with a 3.05-meter pole and somehow survived.
+
+Cryptocurrencies are another such example. Unfortunately, they are still alive and actively harming everybody (i.e. not just the fools and the sleazebags who invest in them).
 
 
 ## AI Slop
@@ -171,12 +191,14 @@ The sooner this bubble pops, the better (or less bad) for everybody, including t
 
 LLMs will not disappear after the bubble bursts, of course, just like the Dutch did not lose their affinity for tulips. But a long [AI ice age](https://en.wikipedia.org/wiki/AI_winter) will very likely ensue. The LLM usage prices will have to become sustainable (i.e. much higher) and only those who get real value from LLMs will continue to use them. Hopefully, AI slop will disappear. I am not so optimistic about the disinfomation campaigns and the mass surveillance, though.
 
+In June 2026 Microsoft made the first step - they raised the prices for Copilot. Hopefully, the bubble will pop before OpenAI's and Anthropic's IPOs - the USA and the world as a whole don't need another batch of too-big-to-fail fraudsters and their greedy shareholders bailed out with public money.
+
 
 ## The Minority Report
 
 But why should you trust my fringe opinion? Well, probably you shouldn't but in case you decide differently: Those are my credentials, and if you don't like them... well, I don't have others.
 
-I have an MSc in Computer Science. It is from 2001 and is not AI-related. I have been programming ever since I discovered computers in 1991. Programming is both my greatest hobby and my profession. Rarely a day passes with me not reading or writing some code. I am not your average CEO of a multi-billion technological company. I am not even a low-level manager. I am still on the front line and I refuse to retreat. I have seen a lot of dangerous bugs, many of them authored by very experienced programmers (including me). I have been interested in the security aspects of software since my day 1 in front of a computer. I have some experience as a penetration tester, even though I have never worked formally as one.
+I have an MSc in Computer Science. It is from 2001 and is not AI-related. I have been programming ever since I discovered computers in 1991. Programming is both my primary hobby and my profession. Rarely a day passes with me not reading or writing some code. I am not your average CTO of a multi-billion technological company. I am not even a low-level manager. I am still on the front line and I refuse to retreat. I have seen a lot of dangerous bugs, many of them authored by very experienced programmers (including me). I have been interested in the security aspects of software since my day 1 in front of a computer. I have some experience as a penetration tester, even though I have never worked formally as one.
 
 
-*Vladimir Panov, 2025.10+ - 2026.02*
+*Vladimir Panov, 2025.10 - 2026.06*
